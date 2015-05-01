@@ -1,0 +1,33 @@
+<body>
+	<div class = "container">
+		<h1 style="text-align:center">InstaData</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<div class = "jumbotron" >
+					<center style="font: 10px sans-serif"> 
+						<h1> Number of People the User Follows</h1>
+						<br>
+						<br>
+						<div id="chart"></div>
+						<div id="parent">
+							<div id="prog" class="spinner">
+							  	<div class="dot1"></div>
+							  	<div class="dot2"></div>
+							</div>
+						</div>
+						
+
+					</center>
+					<button align="left"><a href="/account">Back</a></button>
+					<button id="b" onclick="sortGraph()"> SORT Big to Small</button>
+				</div>
+			</div>
+							
+		</div>
+	</div>
+</body>
+
+
+<script src="js/tip.js"></script>
+
+<script src="js/d3vis.js"></script>
